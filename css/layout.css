@@ -294,6 +294,7 @@ ul#nav li.current a { color: #F06000; }
 .bars .skills {
   	margin-top: 36px;
    list-style: none;
+   
 }
 .bars li {
    position: relative;
@@ -404,6 +405,29 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
+}
+
+@media (max-width: 767px) {
+   .skills {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .skills ul {
+      list-style: none;
+      padding: 0;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .skills li {
+      text-align: left;
+      margin-left: 0;
+      align-items: center;
+      justify-content: center;
+      display:flex;
+   }
 }
 
 /* ------------------------------------------------------------------ */
